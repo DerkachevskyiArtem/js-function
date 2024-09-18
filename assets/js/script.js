@@ -56,7 +56,7 @@ const isEvenNumber = function (number) {
 
 //task 1
 console.log(getSmallestNumber(3, 7)); //3
-console.log(getSmallestNumber("3", 7)); // null 
+console.log(getSmallestNumber("3", 7)); // null
 
 // task 2
 console.log(checkAge(20)); // Повнолітня
@@ -71,4 +71,4 @@ console.log(calculateDiscount(-100)); // null
 // task 4
 console.log(isEvenNumber(8)); // true
 console.log(isEvenNumber(7)); // false
-console.log(isEvenNumber("8")); //null
+console.log(isEvenNumber("8")); // null
