@@ -55,20 +55,20 @@ const isEvenNumber = function (number) {
 };
 
 //task 1
-console.log(getSmallestNumber(3, 7));
-console.log(getSmallestNumber("3", 7));
+console.log(getSmallestNumber(3, 7)); //3
+console.log(getSmallestNumber("3", 7)); // null 
 
 // task 2
-console.log(checkAge(20));
-console.log(checkAge(15));
-console.log(checkAge("15"));
+console.log(checkAge(20)); // Повнолітня
+console.log(checkAge(15)); // Неповнолітня
+console.log(checkAge("15")); // null
 
 // task 3
-console.log(calculateDiscount(2000));
-console.log(calculateDiscount(1000));
-console.log(calculateDiscount(-100));
+console.log(calculateDiscount(2000)); // 1800
+console.log(calculateDiscount(1000)); // 950
+console.log(calculateDiscount(-100)); // null
 
 // task 4
-console.log(isEvenNumber(8));
-console.log(isEvenNumber(7));
-console.log(isEvenNumber("8"));
+console.log(isEvenNumber(8)); // true
+console.log(isEvenNumber(7)); // false
+console.log(isEvenNumber("8")); //null
