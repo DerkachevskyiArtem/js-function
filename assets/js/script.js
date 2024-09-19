@@ -51,12 +51,7 @@ const isEvenNumber = function (number) {
     return null;
   }
   
-  if (number % 2 === 0) {
-    return "Парне";
-  } else {
-    return "Непарне";
-  }
-
+  return number % 2 === 0;
 };
 
 //task 1
@@ -74,6 +69,6 @@ console.log(calculateDiscount(1000)); // 950
 console.log(calculateDiscount(-100)); // null
 
 // task 4
-console.log(isEvenNumber(8)); // "Парне"
-console.log(isEvenNumber(7)); // "Непарне"
+console.log(isEvenNumber(8)); // true
+console.log(isEvenNumber(7)); // false
 console.log(isEvenNumber("8")); // null
