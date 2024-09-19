@@ -50,8 +50,13 @@ const isEvenNumber = function (number) {
   if (typeof number !== "number" || isNaN(number)) {
     return null;
   }
+  
+  if (number % 2 === 0) {
+    return "Парне";
+  } else {
+    return "Непарне";
+  }
 
-  return number % 2 === 0;
 };
 
 //task 1
