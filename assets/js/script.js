@@ -13,7 +13,6 @@ const getSmallestNumber = function (num1, num2) {
   } else {
     return num2;
   }
-  
 };
 
 // task 2
@@ -47,7 +46,7 @@ const isEvenNumber = function (number) {
   if (typeof number !== "number" || isNaN(number)) {
     return null;
   }
-  
+
   return number % 2 === 0;
 };
 
@@ -56,8 +55,8 @@ console.log(getSmallestNumber(3, 7)); //3
 console.log(getSmallestNumber("3", 7)); // null
 
 // task 2
-console.log(checkAge(20)); // Повнолітня
-console.log(checkAge(15)); // Неповнолітня
+console.log(checkAge(20)); // true
+console.log(checkAge(15)); // false
 console.log(checkAge("15")); // null
 
 // task 3
