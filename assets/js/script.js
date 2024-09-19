@@ -30,7 +30,7 @@ const calculateDiscount = function (totalAmount) {
     return null;
   }
 
-  return totalAmount > 1500
+  return totalAmount >= 1500
     ? totalAmount - totalAmount * 0.1
     : totalAmount - totalAmount * 0.05;
 };
