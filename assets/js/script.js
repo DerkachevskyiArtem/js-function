@@ -8,11 +8,7 @@ const getSmallestNumber = function (num1, num2) {
     return null;
   }
 
-  if (num1 < num2) {
-    return num1;
-  } else {
-    return num2;
-  }
+  return num1 < num2 ? num1 : num2;
 };
 
 // task 2
@@ -34,11 +30,9 @@ const calculateDiscount = function (totalAmount) {
     return null;
   }
 
-  if (totalAmount > 1500) {
-    return totalAmount - totalAmount * 0.1;
-  } else {
-    return totalAmount - totalAmount * 0.05;
-  }
+  return totalAmount > 1500
+    ? totalAmount - totalAmount * 0.1
+    : totalAmount - totalAmount * 0.05;
 };
 
 // task 4
