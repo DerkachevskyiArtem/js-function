@@ -13,6 +13,7 @@ const getSmallestNumber = function (num1, num2) {
   } else {
     return num2;
   }
+  
 };
 
 // task 2
@@ -21,11 +22,7 @@ const checkAge = function (age) {
     return null;
   }
 
-  if (age >= 18) {
-    return "Повнолітня";
-  } else {
-    return "Неповнолітня";
-  }
+  return age >= 18;
 };
 
 // task 3
